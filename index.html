@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+    <style>
+    
+        .box { 
+            font-family: 'Nanum Pen Script', cursive;
+            
+            height: 250px;
+            
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg);
+            background-position: center;
+            background-size: cover;
+            color: white;
+            font-size: x-large;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+            
+        }
+
+        .mytiti {
+            background-color: green;
+            width: 300px;
+            height: 300;
+
+            border-radius: 10px;
+            color: wheat;
+            text-align: center;
+            padding: 30px 0px 30px 0px;
+            margin: 50px auto 30px auto;
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://lh3.googleusercontent.com/TySjEcFKYD9IxcO_-3h7oJrKeT4WoAyu9yJ_0Ciq632Ujk9HX0pj_Qt6qffsfXxqPekGLDjJ1BSJ1gCyv2p2aRA0yyN_wVcqo2eGsACWWZ4wuqD_Re8jcN4mQYxiVyYRP3so2fkV1Ec=w2400);
+            background-position: center;
+            background-size: cover;
+            font-family: 'Nanum Pen Script', cursive;
+
+        }
+
+        .log {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+            margin: 5px auto 5px auto;
+            font-family: 'Nanum Pen Script', cursive;
+            font-size: medium;
+
+        }
+
+        .card-title {
+            text-align: center;
+            
+        }
+        .card-text {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="box">
+        <h1>원신</h1>
+        <h1>재밌는 원신</h1>
+        <h2>원신에 접속해주세요</h2>
+    </div>
+
+    <div class="mytiti">
+        <h1>로그인 페이지</h1>
+        <h4>아이디, 비밀번호를 입력하세요</h4>
+
+    </div>
+
+    <div class="log">
+
+        <p>ID: <input type="text" /></p>
+        <p>PW: <input type="text" /></p>
+        <button type="button" class="btn btn-dark">로그인하기</button>
+        
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://lh3.googleusercontent.com/D7anR4O45oIt5q3KpePCgYIsdig3SLhlJ1lagaoY9KSuOSIK6UCvRamdMlwZkNUvF7JPpJISR1S7hVESZksemEtEaGlDWrVEnRu5XDMXduABHQUTLVEGg1C_kn0CfkaC7ImQGWCPNLY=w2400" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">몬드성</h5>
+              <p class="card-text">몬드성에는 사과가 유명합니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://lh3.googleusercontent.com/aYoS4wK4CY_j4Y5YO79n5PISN5x_34Noizmu9hzg3eabQTOEUaf532vwL-j6GUMi_qGhIbJI-8xydQij-RvE5JyCu3bIpNT098Nb8glfeRj1QLjKEQMfLpU9YDdsPjVQfXesb9NkXzI=w2400" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">몬드성2</h5>
+              <p class="card-text">몬드성 정문에서 야란 한 컷.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://lh3.googleusercontent.com/LwchkzD2l7EaF5FsWoODpGZ_uLdsZtA3Y4Q9sbF32wXbQbWVlyFrNgYSZaTjz196vI7AkoYBktw9HQyopicYByPnlGlitbm4ptT-Zrs5lHOfTby0XvfE1wecxLL353miXOc-Rl4Uhyk=w2400" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">닐루</h5>
+              <p class="card-text">춤추는 닐루. 넘모 이쁩니다</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://lh3.googleusercontent.com/dr7Vnq8NuQJMsWcMgn0KpuA2knizTKBnuO0QQw0QTGAvXBqubH0XoRWSnvpkmZm3UJk_c2gzYlKC379L_HorCpkvQT9KSWyqXd9hEiCSHCSz39YW2fNh9m7uqVK-Ynrg7zRvTvBOY94=w2400" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">라이덴 짱짱맨</h5>
+              <p class="card-text">이쁜 라이덴 한 컷.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+</body>
+
+</html>
